@@ -24,9 +24,42 @@ authors:
 - family-names: Brown
   given-names: Andrew
   orcid: https://orcid.org/0000-0002-4565-533X
+preferred-citation:
+  type: generic
+  title: 'geotargets: ''Targets'' Extensions for Geospatial Formats'
+  authors:
+  - family-names: Tierney
+    given-names: Nicholas
+    email: nicholas.tierney@gmail.com
+    orcid: https://orcid.org/0000-0003-1460-8722
+  - family-names: Scott
+    given-names: Eric
+    orcid: https://orcid.org/0000-0002-7430-7879
+  - family-names: Brown
+    given-names: Andrew
+    orcid: https://orcid.org/0000-0002-4565-533X
+  year: '2024'
+  url: http://geotargets.njtierney.com
+  abstract: Provides extensions for various geospatial file formats, such as shapefiles
+    and rasters. Currently provides support for the 'terra' geospatial formats. See
+    the vignettes for worked examples, demonstrations, and explanations of how to
+    use the various package extensions.
+  keywords:
+  - geospatial
+  - pipeline
+  - r
+  - r-package
+  - r-targetopia
+  - raster
+  - reproducibility
+  - reproducible-research
+  - rstats
+  - targets
+  - vector
+  - workflow
+  version: 0.2.0.9000
 repository-code: https://github.com/njtierney/geotargets
 url: http://geotargets.njtierney.com
-date-released: '2024-11-29'
 contact:
 - family-names: Tierney
   given-names: Nicholas
@@ -102,7 +135,7 @@ references:
     orcid: https://orcid.org/0000-0001-5872-2872
   year: '2025'
   doi: 10.32614/CRAN.package.terra
-  version: '>= 1.7.71'
+  version: '>= 1.8-10'
 - type: software
   title: withr
   abstract: 'withr: Run Code ''With'' Temporarily Modified Global State'
