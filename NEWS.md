@@ -1,3 +1,10 @@
+# geotargets (development version)
+
+# geotargets 0.3.1 (15 May 2025)
+
+* Throws an error if `preserve_metadata = "gdalraster_sozip"` in function `tar_terra_rast()` and if GDAL is less than 3.7. Skips testing this feature when GDAL < 3.7 also. This fixes a bug picked up by the CRAN team.
+* Tests also don't report progress bars, as mentioned by CRAN team.
+
 # geotargets 0.3.0 (16 April 2025)
 
 * Bugfix by @brownag that fixes use of `file.rename()` in `tar_terra_rast(..., preserve_metadata = "zip")`, which does not work when the temporary directory is on a different partition. (#121, PR #122).
