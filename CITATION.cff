@@ -8,7 +8,7 @@ message: 'To cite package "geotargets" in publications use:'
 type: software
 license: MIT
 title: 'geotargets: ''targets'' Extensions for Geographic Spatial Formats'
-version: 0.3.1
+version: 0.3.1.9000
 identifiers:
 - type: doi
   value: 10.32614/CRAN.package.geotargets
@@ -206,6 +206,19 @@ references:
   year: '2025'
   doi: 10.32614/CRAN.package.lifecycle
 - type: software
+  title: gdalraster
+  abstract: 'gdalraster: Bindings to ''GDAL'''
+  notes: Imports
+  url: https://usdaforestservice.github.io/gdalraster/
+  repository: https://CRAN.R-project.org/package=gdalraster
+  authors:
+  - family-names: Toney
+    given-names: Chris
+    email: chris.toney@usda.gov
+  year: '2025'
+  doi: 10.32614/CRAN.package.gdalraster
+  version: '>= 2.0.0'
+- type: software
   title: crew
   abstract: 'crew: A Distributed Worker Launcher Framework'
   notes: Suggests
@@ -344,19 +357,6 @@ references:
     email: csardi.gabor@gmail.com
   year: '2025'
   doi: 10.32614/CRAN.package.fs
-- type: software
-  title: gdalraster
-  abstract: 'gdalraster: Bindings to the ''Geospatial Data Abstraction Library'' Raster
-    API'
-  notes: Suggests
-  url: https://usdaforestservice.github.io/gdalraster/
-  repository: https://CRAN.R-project.org/package=gdalraster
-  authors:
-  - family-names: Toney
-    given-names: Chris
-    email: chris.toney@usda.gov
-  year: '2025'
-  doi: 10.32614/CRAN.package.gdalraster
 - type: software
   title: spelling
   abstract: 'spelling: Tools for Spell Checking in R'
