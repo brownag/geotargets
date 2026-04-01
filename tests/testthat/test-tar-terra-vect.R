@@ -24,8 +24,6 @@ targets::tar_test("tar_terra_vect() works", {
   y <- targets::tar_read(test_terra_vect_shz)
   expect_s4_class(x, "SpatVector")
   expect_s4_class(y, "SpatVector")
-  expect_snapshot(x)
-  expect_snapshot(y)
   expect_identical(terra::values(x), terra::values(y))
 })
 

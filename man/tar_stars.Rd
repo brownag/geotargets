@@ -287,7 +287,7 @@ The \code{iteration} argument is unavailable because it is hard-coded to
 \code{"list"}, the only option that works currently.
 }
 \examples{
-\dontshow{if (rlang::is_installed("stars")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (rlang::is_installed("stars")) withAutoprint(\{ # examplesIf}
 # For CRAN. Ensures these examples run under certain conditions.
 # To run this locally, run the code inside this if statement
 if (Sys.getenv("TAR_LONG_EXAMPLES") == "true") {
