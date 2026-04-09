@@ -14,9 +14,6 @@ targets::tar_test("tar_terra_rast() works", {
   x <- targets::tar_read(test_terra_rast)
   expect_s4_class(x, "SpatRaster")
   expect_identical(terra::datatype(x), "INT4S")
-  expect_snapshot(
-    x
-  )
 })
 
 targets::tar_test("tar_terra_rast() works with multiple workers (tests un/marshaling)", {

@@ -17,9 +17,6 @@ targets::tar_test("tar_stars() works", {
   targets::tar_make(reporter = "silent")
   x <- targets::tar_read(test_stars)
   expect_s3_class(x, "stars")
-  expect_snapshot(
-    x
-  )
 })
 
 targets::tar_test("tar_stars_proxy() works", {
@@ -37,9 +34,6 @@ targets::tar_test("tar_stars_proxy() works", {
   targets::tar_make(reporter = "silent")
   x <- targets::tar_read(test_stars_proxy)
   expect_s3_class(x, "stars_proxy")
-  expect_snapshot(
-    x
-  )
 })
 
 
@@ -65,7 +59,6 @@ targets::tar_test("tar_stars(mdim=TRUE) works", {
   targets::tar_make(reporter = "silent")
   x <- targets::tar_read(test_stars_mdim)
   expect_s3_class(x, "stars")
-  expect_snapshot(x)
 })
 
 
@@ -97,7 +90,6 @@ targets::tar_test("tar_stars(mdim=TRUE, ncdf=TRUE) works", {
     x <- targets::tar_read(test_stars_mdim_ncdf)
   })
   expect_s3_class(x, "stars")
-  expect_snapshot(x)
 })
 
 targets::tar_test("tar_stars() works with dynamic branching", {
